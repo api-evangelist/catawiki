@@ -1,8 +1,27 @@
 aid: catawiki
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/catawiki.png
 name: Catawiki
-description: 'Catawiki is a company surfaced as a portfolio company of accel, northzone and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Catawiki is an online auction marketplace headquartered in Amsterdam,
+  Netherlands, specializing in special and collectible objects. Founded in 2008, it
+  runs curated weekly auctions across categories such as art, jewelry, watches, classic
+  cars, coins, stamps, comics, wine, and other collectibles, where every lot is reviewed
+  and vetted by in-house experts before it goes live. Catawiki operates as a consumer
+  marketplace connecting buyers and sellers internationally; it does not publish a
+  public developer API or partner integration program, and runs its engineering on
+  a Ruby/Go/Kafka stack visible across its public GitHub organization. This profile
+  was added to the API Evangelist network as a venture-portfolio lead (Accel, Northzone)
+  and enriched with verifiable identity and domain-security signals.'
 url: https://raw.githubusercontent.com/api-evangelist/catawiki/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Marketplace
+- Auction
+- Collectibles
+- Ecommerce
+- Art
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/catawiki-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/catawiki
 - type: Website
-  url: http://www.catawiki.com
+  url: https://www.catawiki.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
