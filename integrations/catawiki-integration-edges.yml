@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/catawiki/integrations
+- https://n8n.io/integrations/catawiki/
+- https://composio.dev/toolkits/catawiki
+- https://monid.ai/tools/catawiki
+checked:
+- https://composio.dev/toolkits/catawiki
+- https://monid.ai/tools/catawiki
+- https://n8n.io/integrations/catawiki/
+- https://zapier.com/apps/catawiki/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
